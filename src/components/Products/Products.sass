@@ -1,0 +1,67 @@
+.card
+    display: flex
+    gap: 2em
+    padding: 1em
+    background: #eee
+    border: 2px solid #0dc0c077
+    border-radius: 0.8em
+    flex-direction: column
+    cursor: pointer
+
+
+    &-image-product
+        width: 300px
+        box-shadow: 0.1em 0.1em 0.1em #222
+        filter: grayscale(60)
+        object-fit: cover
+        height: 300px
+        border-radius: 0.2em
+        transition: 0.5s all ease-in
+        
+        &:hover
+            transition: 0.5s all ease-in
+            box-shadow: none
+            filter: grayscale(0)
+
+        
+    &-title-product
+        text-align: start
+        font-size: 0.8em
+        font-family: cursive
+        font-weight: 600
+        color: #0e67af
+       
+
+    &-events
+        display: flex
+        justify-content: space-between
+        align-items: center
+        align-content: center
+
+        &-price-product
+            font-weight: 600
+            font-size: 1em
+            letter-spacing: 0.1em
+
+        &-add-cart
+            display: flex
+            padding: 0.4em
+            color: #fff
+            font-weight: 600
+            cursor: pointer
+            border-radius: 0.5em
+            background: #08f
+            gap: 0.5em
+            box-shadow: 0.1em 0.1em  0.5em #444
+            text-transform: lowercase
+            justify-content: center
+            text-align: center
+            animation: animateBtn 0.2s all ease-in
+
+            &:hover
+                transition: 0.2s all ease-in
+                color: #0477   
+
+          
+
+        

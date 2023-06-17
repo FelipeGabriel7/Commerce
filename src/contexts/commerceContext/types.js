@@ -1,0 +1,3 @@
+export const LOADING_ITEMS = 'LOADING_ITEMS';
+export const SUCESS_ITEMS = 'SUCESS_ITENS';
+export const ERROR_ITEMS = 'ERROR_ITEMS';

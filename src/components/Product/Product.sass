@@ -1,0 +1,63 @@
+
+.container-item-product
+    display: flex
+    align-items: center
+    font-size: 1.5em
+    font-family: cursive
+    color: #09e
+    font-weight: 600
+    justify-content: center
+
+    &-message
+        margin: 5em auto
+        display: flex
+        height: 60vh
+        gap: 2em
+        text-decoration: none
+        align-items: center
+        flex-direction: column
+
+        &-link
+            text-decoration: none
+            color: #fff
+            padding: 0.6em
+            cursor: pointer
+            font-size: 0.8em
+            background: #444
+            border-radius: 0.8em
+
+            &:after
+                transition: 0.4s all ease-in
+                background: #f14
+
+            &:hover
+                transition: 0.3s all ease-in
+                background: #0ca204
+            
+    &-content
+        width: 80%
+        margin: 6em auto
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 3em
+        border-radius: 0.8em
+        padding: 1em
+        border: 2px solid #03b1b1 
+        
+
+        &-image
+            margin: 0 auto
+            width: 60%
+            border-radius: 0.5em
+            box-shadow: 0.2em 0.2em 0.2em #4444447a
+
+        
+        .content-information
+            display: flex
+            gap: 1em
+            text-align: center
+            justify-content: space-around
+            flex-direction: column
+
+            

@@ -1,0 +1,58 @@
+@use '../../styles/mixins'
+
+.container
+    width: 100%
+    gap: 1em
+    padding: 0.5em
+    box-shadow: 0.1em 0.1em 0.2em #222
+    background: #0c0c0c
+    color: #fff
+    font-weight: 800
+    
+    .Navbar
+        display: flex
+        gap: 2em
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-around
+
+        &-title
+            font-size: 1.2em
+            text-decoration: none
+            font-weight: 500
+            font-family: sans-serif
+            color: #1cc40d
+
+        &-cart-size
+            position: absolute
+            right: 6.2%
+            color: #03eb2a
+            padding: 0.2em
+            text-align: center
+            font-size: 0.8em
+            border-radius: 20%
+            @include mixins.tablet
+                right: 0
+                left: 10%
+
+        &-input-search
+            display: flex
+            align-items: center
+            background: #fbfbfb
+            width: 50%
+            padding: 0.6em
+            border-radius: 2em
+            @include mixins.tablet
+                width: 80%
+            
+
+            &>input
+                border: none
+                width: 100%
+                background: nones
+                outline: none
+                color: #000
+                font-weight: 600
+
+            
+   
